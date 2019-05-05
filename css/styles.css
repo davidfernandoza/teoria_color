@@ -1,0 +1,62 @@
+.header{
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+.header nav{
+  background-color: rgba(0, 0, 0, .0);
+  color: white;
+}
+.header p{
+  font-size: 25px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+.logo{
+  width: 50%;
+}
+.logo img{
+  height: 25px;
+  padding-right: 5px;
+  position: relative;
+  top: -5px;
+}
+.menu{
+  width: 50%;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.slide{
+  height: 100vh;
+  overflow: hidden;
+}
+.slide img {
+  filter: grayscale(90%);
+}
+
+.info{
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  justify-content: center;
+  align-content: center;
+}
+.info h2 p{
+  width: 100%;
+  padding-top: 10px;
+}
+.galeria{
+  background-color: grey;
+}
+.targetas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card{
+  margin-bottom: 40px;
+}
