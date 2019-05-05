@@ -1,62 +1,68 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  position: relative;
+}
 .header{
   position: fixed;
   z-index: 100;
-  width: 100%;
+  right: 0;
+  width: 30%;
+  border: 1px solid #DDD7E7;
+  height: 100vh;
+  margin-left: 35%;
 }
 .header nav{
-  background-color: rgba(0, 0, 0, .0);
-  color: white;
-}
-.header p{
-  font-size: 25px;
-  color: white;
-  text-shadow: 2px 2px 2px black;
-}
-.logo{
-  width: 50%;
-}
-.logo img{
-  height: 25px;
-  padding-right: 5px;
-  position: relative;
-  top: -5px;
-}
-.menu{
-  width: 50%;
-}
-.navbar{
-  display: flex;
-  justify-content: space-between;
-}
-
-.slide{
-  height: 100vh;
-  overflow: hidden;
-}
-.slide img {
-  filter: grayscale(90%);
-}
-
-.info{
-  height: 300px;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 30px;
-  justify-content: center;
-  align-content: center;
-}
-.info h2 p{
   width: 100%;
-  padding-top: 10px;
+  height: 40%;
+  display: flex;
+  align-items: flex-start;
 }
-.galeria{
-  background-color: grey;
+.header ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
-.targetas{
+.header li {
+  width: 100%;
+  padding: 15px 0 10px 15px;
+  list-style: none;
+  color: grey;
+}
+.header li:hover {
+  background-color: #a533ff;
+  color: white;
+}
+.header a {
+  text-decoration: none;
+}
+.contend{
+  width: 68%;
+}
+
+.container__img{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #DDD7E7;
+}
+.container__img img{
+  width: 150px;
+  height: 150px;
+}
+.footer{
+  border-top: 1px solid #DDD7E7;
+  height: 20%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
 }
-.card{
-  margin-bottom: 40px;
+.footer p{
+  width: 100%;
+  padding: 20px 0 0 10px;
 }
