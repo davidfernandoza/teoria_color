@@ -1,4 +1,49 @@
 *{
+<<<<<<< HEAD
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Muli', sans-serif;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+h1{
+  text-align: center;
+  width: 100%;
+}
+h2{
+  text-align: left;
+  width: 100%;
+}
+h3{
+  text-align: left;
+  width: 100%;
+}
+h4{
+  text-align: left;
+  width: 100%;
+}
+a{
+  text-decoration: underline;
+}
+ul{
+  text-align: left;
+  width: 100%;
+}
+#imagen1{
+  width: 100%;
+}
+.rojo{
+  color: red;
+  font-weight: bold
+}
+.verde{
+  color: green;
+  font-weight: bold
+
+=======
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -42,8 +87,30 @@ body{
 }
 .contend{
   width: 68%;
+>>>>>>> 09d658386832e71ede1069ae6b6baf685588d539
 }
+.azul{
+  color: blue;
+  font-weight: bold
 
+<<<<<<< HEAD
+}
+.morado{
+  color: #A533FF;
+  font-weight: bold
+}
+.amarillo{
+  color: #E7DA0B;
+  font-weight: bold
+}
+.naranja{
+  color: orange;
+  font-weight: bold
+}
+.violeta{
+  color: violet;
+  font-weight: bold
+=======
 .container__img{
   width: 100%;
   height: 40%;
@@ -65,4 +132,9 @@ body{
 .footer p{
   width: 100%;
   padding: 20px 0 0 10px;
+>>>>>>> 09d658386832e71ede1069ae6b6baf685588d539
+}
+.cian{
+  color: cyan;
+  font-style: italic;
 }
